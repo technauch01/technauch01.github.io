@@ -1,0 +1,22 @@
+body {
+    background-color: #ffffff; /* White background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    background-color: #0078d4; /* Windows Blue */
+    color: #ffffff; /* White text */
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px; /* Adjust the value to control the roundness */
+}
+
+button:hover {
+    background-color: #005a9e; /* Darker shade on hover */
+}
